@@ -16,6 +16,14 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/my-hello-library": [
+        "libs/my-hello-library/src"
+      ],
+      "@app/my-hello-library/*": [
+        "libs/my-hello-library/src/*"
+      ]
+    }
   }
 }
